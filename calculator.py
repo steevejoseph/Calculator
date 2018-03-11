@@ -2,10 +2,16 @@
 import tkinter as tk
 import math
 
-button = list()
+# minor optimization 
+# apparently [] is 5x faster than list()
+# https://youtu.be/YjHsOrOOSuI?t=19m30s
+button = []
+
+
 numbers = ("789456123")
 
 root = tk.Tk()
+root.title('Michael\'s Calculator')
 
 menu = root.winfo_toplevel()
 root.menuBar = tk.Menu(menu)
