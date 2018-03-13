@@ -1,5 +1,4 @@
 import basic
-import scientific
 import tkinter as tk
 
 
