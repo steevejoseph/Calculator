@@ -2,5 +2,5 @@ Hey Michael, to build OSX one-file executable:
 
 1. pip3 install pyinstaller
 	(assuming you have pip for python3)
-2. pyinstaller --onefile --windowed --icon=simp_calc.jpg main.py --hidden-import=tkinter -y
+2. pyinstaller --onefile --windowed main.py --hidden-import=tkinter -y
 3. A "build" and "dist" folder will appear in the directory. The OSX version will be in the dist folder.
