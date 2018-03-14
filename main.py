@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import basic
 import tkinter as tk
 
